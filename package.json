@@ -1,0 +1,28 @@
+{
+  "name": "dpfile",
+  "version": "1.0.0",
+  "description": "Library to work with .dp files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Justin O'Boyle <justin@justinoboyle.com>",
+  "git": "https://github.com/justinoboyle/dp.git",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinoboyle/dp/issues"
+  },
+  "files": [
+    "index.js",
+    "parse.js",
+    "test.js",
+    "cli.js"
+  ],
+  "bin": {
+    "dp": "./cli.js",
+    "dpfile": "./cli.js"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
